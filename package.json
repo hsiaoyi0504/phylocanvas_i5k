@@ -1,0 +1,23 @@
+{
+  "name": "phylocanvas_i5k",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "cd dist && python3 -m http.server",
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --single-quote --trailing-comma es5 --write src/main.js"
+  },
+  "author": "Yi Hsiao",
+  "license": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "phylocanvas": "^2.8.1",
+    "prettier": "1.10.2",
+    "webpack": "^3.10.0"
+  }
+}
